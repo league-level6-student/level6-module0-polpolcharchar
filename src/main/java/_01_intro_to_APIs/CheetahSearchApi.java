@@ -97,8 +97,9 @@ public class CheetahSearchApi {
 
     public String findBook(String topic){
         //collect the response into a java object using the classes you just created
+//    	System.out.println("Getting results:");
         Result[] results =  getBookByTopic(topic);
-
+        System.out.println("Retrieved " + results.length + " results:");
         //take the first Result in the array
         Result result = results[0];
 

@@ -18,6 +18,7 @@ public class CatWrapper {
     public void setData(List<String> data) {
         this.data = data;
     }
+    
 
     /*
     This class could simply be defined as below, but the above code is what is supplied by jsonschema2pojo.com:
@@ -28,5 +29,4 @@ public class CatWrapper {
         return data;
     }
     */
-
 }
